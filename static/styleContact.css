@@ -1,0 +1,49 @@
+.heading{
+    padding: 5vh;
+}
+.container{
+    min-height: 88vh;
+}
+#contactSection{
+    background: center / cover no-repeat url('../static/bg4.jpg');
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.myInput{
+    width: 40%;
+    padding: 10px;
+    margin: 5px auto;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    border-radius: 10rem;
+    background: rgba(0, 0, 0, 0.411);
+    text-align: center;
+}
+
+.btn{
+    border-radius: 35px;
+    outline: none;
+    padding: 2px 10px;
+    margin: 5px;
+    font-size: 1.35rem;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    background: rgba(0, 0, 0);
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.719);
+}

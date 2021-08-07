@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Baloo 2', cursive;
+}
+
+::selection {
+    color: white;
+    background: #6400b0;
+  }
+
+#navbar{
+    background-color: black;
+    padding: 16px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style-type: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+#navbar li a:hover{
+    color: rgb(172, 172, 172);
+}
+
+#introSection{
+    background: center / cover no-repeat url('../static/bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+    color: white;
+    height: 350px;
+    background-color: red;
+}
+
+.heading{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.subheading{
+    font-size: 1.5rem;
+}
+
+#missionSection{
+    height: 350px;
+    background: center / cover no-repeat url('../static/bg1.jpg');
+    text-align: center;
+}
+#missionSection p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 20px;
+}
+
+#ourSponsers{
+    background: center / cover no-repeat url('../static/bg3.jpg');
+    height: 350px;
+    text-align: center;
+}
+
+#sponsers{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.spImage{
+    height: 70%;
+    margin: 50px 100px;
+    padding: 5px;
+}
+
+#footer{
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
